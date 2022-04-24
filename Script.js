@@ -1,6 +1,9 @@
 const wrapper = document.querySelector(".wrapper"),
-generateBtn = wrapper.querySelector(".form"); 
+qrInput = wrapper.querySelector(".form input");
+generateBtn = wrapper.querySelector(".form button");  
 
 generateBtn.addEventListener("click", () => {
+    let qrValue = qrInput.qrValue;
+    console.log(qrValue); 
     wrapper.classList.add("active"); 
 }); 
