@@ -7,3 +7,6 @@ generateBtn.addEventListener("click", () => {
     console.log(qrValue); 
     wrapper.classList.add("active"); 
 }); 
+
+const InputValue = document.querySelector('#imputValue'); 
+const btnValue = document.querySelector('#btnValue'); 
