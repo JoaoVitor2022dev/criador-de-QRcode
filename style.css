@@ -17,17 +17,12 @@
 
 .wrapper{
    height: 260px;
-   background: #fff;
    max-width: 410px;
+   background: #fff;
    border-radius: 7px;
    padding: 16px 25px 0;
-   transition: height 0.2s ease; 
 }
 
-.wrapper.active{
-    height: 530px;
-
-}
 header h1{
     font-size: 21px;
     font-weight: 500;
@@ -74,7 +69,3 @@ header p{
     border: 1px solid #ccc;
 } 
 
-.wrapper.active .qr-code{
-    opacity: 1;
-    pointer-events: opacity 0.5s 0.05s ease;
-}
