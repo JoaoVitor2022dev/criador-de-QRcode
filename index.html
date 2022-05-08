@@ -14,17 +14,14 @@
                 <p>cole a URL desejada</p>
            </div>
            <div class="form">
-               <input type="text" placeholder="Inserira a URL" nome="" id="" >
+               <input type="text" placeholder="Inserira a URL" nome="" id="inputValue" >
                <button id="btnValue">Gerar QRcode</button>
            </div>
         </div>
         <div class="qr-code">
-            <img src="Leitor-de-codigo-QR-e-leitor-de-codigo-de-barras.jpg" id="imgQRcode" alt="">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${inputValue}" id="imgQRcode.value" >
         </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
-
-
-<h1>o video terminou em 25:35 </h1>
