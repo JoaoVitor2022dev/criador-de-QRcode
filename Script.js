@@ -13,7 +13,7 @@ btnValue.addEventListener('click', () => {
     if(!qrcodeValue || qrcodeValue === valueDeFault ) return;  
     valueDeFault = qrcodeValue;
     btnValue.innerText = 'Gerand QR code...' 
-    imgQRcode.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${inputValue}`
+    imgQRcode.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example${inputValue}`
     imgQRcode.addEventListener('load',() => {
         wrapper.classList.add('active'); 
         btnValue.innerText = 'Gerar QRcode'
